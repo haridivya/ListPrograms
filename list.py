@@ -15,3 +15,8 @@ Sample Input
 Output
 [1, 2, 3, 4]
 '''
+size_list=int(input())
+list1=[]
+for i in range(size_list):
+    list1.append(int(input()))
+print(list1)
