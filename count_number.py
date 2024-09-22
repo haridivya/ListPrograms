@@ -10,9 +10,18 @@ Sample Input:
 10
 Sample Output:
 3
-9)Write a program to print the given list in reverse order.
-Sample Input:
-10 20 30 40 50
-Sample Output:
-50 40 30 20 10 
 '''
+#using with count_function
+values=input().split(' ')
+val=int(input())
+number=[int(i) for i in values]
+print(number.count(val))
+#without using count
+values=input().split(' ')
+vals=int(input())
+number=[int(i) for i in values]
+count_num=0
+for i in number:
+    if i==vals:
+        count_num+=1
+print(count_num)
