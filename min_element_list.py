@@ -15,3 +15,9 @@ Sample Input:
 Sample Output:
 1
 '''
+size_list=int(input())
+list1=[]
+for i in range(size_list):
+    list1.append(int(input()))
+min_value=min(list1)
+print(min_value)
