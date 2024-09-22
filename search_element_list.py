@@ -18,3 +18,10 @@ Sample Input 2:
 Sample Output 2:
 4 is not present in the given list
 '''
+size_list=int(input())
+elements=input().split(' ')
+value=input()
+if value in elements:
+    print(f'{value} is present in the given list')
+else:
+    print(f'{value} is not present in the given list')
