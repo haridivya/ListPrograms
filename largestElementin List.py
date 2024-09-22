@@ -15,3 +15,9 @@ Sample Input:
 Sample Output:
 6
 '''
+size_list=int(input())
+list1=[]
+sum1=0
+for i in range(size_list):
+    list1.append(int(input()))
+print(max(list1))
