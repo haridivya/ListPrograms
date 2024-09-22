@@ -17,3 +17,10 @@ Sample Input:
 Sample Output:
 11
 '''
+size_list=int(input())
+list1=[]
+sum1=0
+for i in range(size_list):
+    list1.append(int(input()))
+    sum1+=list1[i]
+print(sum1)
